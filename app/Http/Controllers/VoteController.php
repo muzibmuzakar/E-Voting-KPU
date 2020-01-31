@@ -6,7 +6,7 @@ use App\Models\vote;
 use App\Models\Voter;
 use Illuminate\Http\Request;
 
-class voteController extends Controller
+class VoteController extends Controller
 {
     // read
     public function index(Request $request)
